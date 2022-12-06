@@ -13,6 +13,6 @@ var version = "dev"
 
 func main() {
 	config.SetVersion(version)
-	functions.SelfUpdate(version)
+	functions.SelfUpdate(version, true)
 	cmd.Execute()
 }
