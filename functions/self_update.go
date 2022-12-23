@@ -21,7 +21,7 @@ func SelfUpdate(currentVersion string, rebootDaemon bool) {
 		return !unicode.IsNumber(r)
 	})
 	v := semver.MustParse(semVer)
-	latest, err := selfupdate.UpdateSelf(v, "gravitl/netclient")
+	latest, err := selfupdate.UpdateSelf(v, "theguy951357/netclient")
 	if err != nil {
 		logger.Log(0, "Binary update failed:", err.Error())
 		return
