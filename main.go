@@ -9,7 +9,7 @@ import (
 	"github.com/gravitl/netclient/functions"
 )
 
-var version = "v0.0.1"
+var version = "v0.0.0"
 
 func main() {
 	config.SetVersion(version)
